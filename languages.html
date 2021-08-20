@@ -1,68 +1,122 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <style type="text/css">
-        .caja {
+<head>
 
-            width: 45%;
-            font-family: sans-serif;
-            font-size: 18px;
-            font-weight: 400;
-            color: #ffffff;
-            background: #889ccf;
-            margin: 0 0 25px;
-            overflow: hidden;
-            padding: 20px;
-            border-radius: 35px 0px 35px 0px;
-            -moz-border-radius: 35px 0px 35px 0px;
-            -webkit-border-radius: 35px 0px 35px 0px;
-            border: 2px solid #5878ca;
-            text-align: center;
-            font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-        }
-        div#left{
-  		float:right;
-        float:top;
-        }
-        .foto{ 
-        padding: 10px; 
-        margin: 10px; 
-        border: 2px solid black; 
-        float: left; width: 250px; 
-        }
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>lENGUAJES DE PROGRAMACIÓN</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="gallery-grid.css">
+    <style>
         .boton {
          border: 1px solid #2e518b; 
-        padding: 10px; 
+        padding: 2px; 
         background-color: #2e518b; 
         color: #ffff;
         text-transform: uppercase;
         font-family: 'Helvetica'; 
         border-radius: 50px; 
-        position: absolute;bottom: 0.0000001%;
-                  }
-        .img.alineado{
-        vertical-align: middle;
+        position: relative ;
         }
-        
 
-        </style>
-    </head>
-    <body>
-        
+        .picture { 
+  background-color: #F9F9F9;
+  border: 1px solid #CCCCCC; padding: 3px;
+  font: 11px/1.4em Arial, sans-serif; 
+ }
+ .picture img { 
+  border: 1px solid #CCCCCC;
+  vertical-align:middle; 
+  margin-bottom: 3px;
+ }
+ .right { 
+  margin: 0.5em 0pt 0.5em 0.8em; 
+  float:right; 
+ }
+ .left { 
+  margin: 0.5em 0.8em 0.5em 0; 
+  float:left;
+ }
+</style>
+    </style>
     
-        <div class="caja" class="img.alineado" id="left" ><img src="c1.jpg" width="100" height="100" >C es un lenguaje de programación de propósito general​ originalmente desarrollado por Dennis Ritchie entre 1969 y 1972 en los Laboratorios Bell, ​ como evolución del anterior lenguaje B, a su vez basado en BCPL.​​​ Al igual que B, es un lenguaje orientado a la implementación de sistemas operativos, concretamente Unix.</div>
-        
-        <div class="caja" class="alineado" ><img src="PYTHON.png" width="100" height="100" >Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.​ Se trata de un lenguaje de programación multiparadigma, ya que soporta parcialmente la orientación a objetos, programación imperativa y, en menor medida, programación funcional.</div>
-        <div class="caja" class="alineado" id="left"><img src="swift.png" width="100" height="100" >Swift es un lenguaje de programación multiparadigma creado por Apple enfocado en el desarrollo de aplicaciones para iOS y macOS. Fue presentado en la WWDC 2014​.</div>
-        <div class="caja" class="alineado"><img src="sql.png" width="100" height="100" >SQL es un lenguaje de dominio específico utilizado en programación, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales.</div>
-        <div class="caja" class="alineado" id="left"><img src="ruby.png" width="100" height="100" >Ruby es un lenguaje de programación interpretado, reflexivo y orientado a objetos, creado por el programador japonés Yukihiro "Matz" Matsumoto, quien comenzó a trabajar en Ruby en 1993, y lo presentó públicamente en 1995. </div>
-        <div class="caja" class="alineado"><img src="Java-logo.jpg" width="100" height="100" >La plataforma Java es el nombre de un entorno o plataforma de computación originaria de Sun Microsystems, capaz de ejecutar aplicaciones desarrolladas usando el lenguaje de programación Java u otros lenguajes que compilen a bytecode y un conjunto de herramientas de desarrollo. </div>
-        <div class="caja" class="alineado" id="left" ><img src="JAVASCRIPT.jpg" width="100" height="100" >JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.</div>
-        <div class="caja" class="alineado"><img src="PHP.png" width="100" height="100" >PHP es un lenguaje de programación de uso general que se adapta especialmente al desarrollo web.​ Fue creado inicialmente por el programador danés-canadiense Rasmus Lerdorf en 1994.​ En la actualidad, la implementación de referencia de PHP es producida por The PHP Group.</div>
-        <div class="caja" class="alineado" id="left" ><img src="visualbasic.png" width="100" height="100" >Visual Basic es un lenguaje de programación dirigido por eventos, desarrollado por Alan Cooper para Microsoft. Este lenguaje de programación es un dialecto de BASIC, con importantes agregados.</div>
-        <div class="caja" class="alineado" ><img src="c++.png" width="100" height="100" >C++ es un lenguaje de programación diseñado en 1979 por Bjarne Stroustrup. La intención de su creación fue extender al lenguaje de programación C mecanismos que permiten la manipulación de objetos. En ese sentido, desde el punto de vista de los lenguajes orientados a objetos, C++ es un lenguaje híbrido. </div>
-        <a class="boton" href="" target="_blank">Regresar al menú</a>
-    </body>
+
+</head>
+<body>
+
+<div class="container gallery-container">
+
+    <h1>Lenguajes de programación</h1>
+
+    <p class="page-description text-center">Los más conocidos.</p>
+    
+    <div class="tz-gallery">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4" class="picture left" >
+                <a class="lightbox" href="https://www.python.org/">
+                    <img src="PYTHON.png" alt="Python" ></a></br>Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código.
+            </div>
+            <div class="col-sm-6 col-md-4" class="picture left" >
+                <a class="lightbox" href="https://www.apple.com/co/swift/">
+                    <img src="swift.png" alt="Bridge"></a></br>Swift es un lenguaje de programación multiparadigma creado por Apple enfocado en el desarrollo de aplicaciones para iOS y macOS. 
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-4" class="picture left">
+                <a class="lightbox" href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads">
+                    <img src="SQL.png" alt="Tunnel"></a></br>SQL es un lenguaje de dominio específico utilizado en programación, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales.
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4" class="picture left">
+                <a class="lightbox" href="https://es.wikipedia.org/wiki/C%2B%2B">
+                    <img src="c++.png" alt="Coast"></a></br>C++ es un lenguaje de programación diseñado en 1979 por Bjarne Stroustrup.
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4" class="picture left">
+                <a class="lightbox" href="https://es.wikipedia.org/wiki/C_(lenguaje_de_programaci%C3%B3n)">
+                    <img src="c1.jpg" alt="Rails"></a></br>C es un lenguaje de programación de propósito general​ originalmente desarrollado por Dennis Ritchie entre 1969 y 1972. 
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4" class="picture left">
+                <a class="lightbox" href="https://www.ruby-lang.org/es/">
+                    <img src="ruby.png" alt="Traffic"></a></br>Ruby es un lenguaje de programación interpretado, reflexivo y orientado a objetos, creado por el programador japonés Yukihiro.
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4" class="picture left">
+                <a class="lightbox" href="https://www.java.com/es/">
+                    <img src="java.png" alt="Rocks"></a></br>La plataforma Java es el nombre de un entorno o plataforma de computación originaria de Sun Microsystems.
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4" class="picture left">
+                <a class="lightbox" href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+                    <img src="javascript.png" alt="Benches"></a></br>avaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4" class="picture left">
+                <a class="lightbox" href="https://www.php.net/manual/es/intro-whatis.php">
+                    <img src="PHP.png" alt="Sky"></a></br>PHP es un lenguaje de programación de uso general que se adapta especialmente al desarrollo web
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4" class="picture left">
+                <a class="lightbox" href="https://docs.microsoft.com/en-us/dotnet/visual-basic/">
+                    <img src="vs.png" alt="Sky"></a></br>Visual Basic es un lenguaje de programación dirigido por eventos, desarrollado por Alan Cooper para Microsoft.
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <a class="boton" href="menu.html" >Regresar al menú</a>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
 </html>
